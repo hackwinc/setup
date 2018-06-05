@@ -260,7 +260,8 @@ endif
 
 "-----------------------------------------------
 "" better movement binds
-  noremap Q gq
+    noremap Q gq
+    map <C-d> :NERDTreeToggle<CR>
     set   autowrite
     set   nobackup
     set   backspace=2
